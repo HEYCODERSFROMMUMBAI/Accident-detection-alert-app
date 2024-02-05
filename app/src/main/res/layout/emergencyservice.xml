@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@color/white">
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/callTxt"
+            android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="+919004901611"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callButton"
+                android:layout_width="90dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:text="Ambulance"
+                android:background="@drawable/bg_btn"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/callTxt1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="+919004901611"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callButton1"
+                android:layout_width="90dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:text="Police"
+                android:background="@drawable/bg_btn"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/callTxt2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="9004901611"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callButton2"
+                android:layout_width="90dp"
+                android:textColor="@color/white"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:text="Fire-Briget"
+                android:background="@drawable/bg_btn"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/callTxt3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="9004901611"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callButton4"
+                android:layout_width="90dp"
+                android:textColor="@color/white"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="Centralized Emergency"
+                android:background="@drawable/bg_btn"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/callTxt4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/white"
+                android:text="9004901611"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callButton5"
+                android:layout_width="90dp"
+                android:textColor="@color/white"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:text="Emergency Rescue"
+                android:background="@drawable/bg_btn"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="14dp"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/calleTxt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Enter Emergency No "
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/callButton3"
+                android:layout_width="90dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Call Now"
+                android:textSize="30sp"
+                android:background="@drawable/bg_btn"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

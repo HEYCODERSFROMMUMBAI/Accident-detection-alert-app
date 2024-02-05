@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">24hremergencyservices</string>
+    <string name="title_activity_mapdm">Mapdm</string>
+    <string name="emergency_services">Emergency Services</string>
+    <string name="uses_accelerometer_sensor_to_detect_accident_and_send_an_sos_message_to_your_added_emergency_contact_with_your_current_location_if_you_are_travelling_with_two_wheeler_it_is_suggested_to_keep_your_phone_in_pocket_and_if_you_are_travelling_in_a_car_it_is_recommended_after_detecting_accident_confirmation_that_it_is_accident_or_not_that_a_timer_30_second_if_bus_not_get_any_response_with_30_second_itself_automatically">Uses accelerometer sensor to detect accident and send an SOS message to your added emergency contact with your current location if you are travelling with two wheeler it is suggested to keep your phone in pocket and if you are travelling in a car it is recommended after detecting accident confirmation that it is accident or not that a timer 30 second if bus not get any response with 30 second itself automatically.</string>
+    <string name="need_help">Need help?</string>
+    <string name="slogan_hp">आपकी सेवा हमारी प्राथमिकता</string>
+    <string name="watch_mode">Watch Mode</string>
+    <string name="driving_mode">Driving Mode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_maps_api">google_maps_api</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
